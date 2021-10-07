@@ -22,7 +22,7 @@ def tweet_poll(chrome_fill_path, contestant_list, contestant_dict):
     sleep(2)
 
     password_input = driver.find_element_by_tag_name("input")
-    password_input.send_keys("atomicbomb")
+    password_input.send_keys(PASSWORD)
     password_input.send_keys(Keys.ENTER)
     sleep(2)
 
